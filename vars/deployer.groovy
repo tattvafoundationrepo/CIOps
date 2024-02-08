@@ -14,7 +14,7 @@ metadata:
 spec:
   containers:
   - name: egov-deployer
-    image: tattvafoundation/egov-finance:v3.0.2-0ef3f35b-11
+    image: egovio/egov-deployer:3-master-931c51ff
     command:
     - cat
     tty: true
