@@ -47,6 +47,7 @@ spec:
                         
                         # Optionally, set KUBECONFIG environment variable to use this kubeconfig
                         export KUBECONFIG=/root/.kube/config
+                        kubectl config get-contexts
                         kubectl get nodes
                         kubectl get namespaces
                     """
